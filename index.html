@@ -4,12 +4,15 @@
 	<title>Abrar - Portfolio</title>
 	<meta http-equiv="X-UA-Compitable" content="IE=edge">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stuff/css/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="stuff/css/bootstrap.css"> -->
 	<link rel="stylesheet" type="text/css" href="stuff/css/style.css">
 	<link rel="stylesheet" type="text/css" href="stuff/css/responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="stuff/imgs/favicon.png">
 	<style>
+		html, body {
+			overflow-x: hidden;
+		}
 		html {
 			scroll-behavior: smooth;
 		}
@@ -48,7 +51,7 @@
 		@media only screen and (max-width: 768px) {
 			.main-content {
 				width: 100%;
-		}
+			}
 
 		.img1 {
 				background-position: center;
@@ -66,6 +69,10 @@
 				height: 400px;
 		}
 
+	}
+	.main-nav {
+		position: absolute;
+		z-index: 0;
 	}
 	</style>
 </head>
